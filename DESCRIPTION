@@ -1,0 +1,12 @@
+Package: tabpcdas
+Title: Tabulacao de Dados de Saude e Populacao
+Version: 0.3.0
+Authors@R: person("Raphael", "Saldanha", role = c("aut", "cre"), email = "raphael.saldanha@fiocruz.br")
+Description: Aplicacao Shiny para tabulacao de dados publicos de saude
+    e populacao por consultas agregadas a PCDaS, sem cache persistente.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.3)
+Imports: shiny, bslib, DT, rpcdas, callr, writexl, data.table, jsonlite
+Suggests: testthat, renv, remotes, readxl
+Remotes: rfsaldanha/rpcdas@a74a50a6c5396b79d8045927d7761e9f0be4b0b0

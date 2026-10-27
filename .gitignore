@@ -1,0 +1,15 @@
+.Rhistory
+.RData
+.Ruserdata
+.cache/
+data/
+logs/
+renv/library/
+renv/staging/
+renv/local/
+renv/cellar/
+*.log
+tests/artifacts/
+.env
+.Renviron
+restart.txt
